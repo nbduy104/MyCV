@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="/Assets/img/favicon.ico" />
+  <title>Ngo Buu Anh Duy - CV</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+  <header>
+    <div id="wrapper" class="wrapper">
+      <canvas id="mini-particle" width="1519" height="354"></canvas>
+    </div>
+    <div id="headerline" class="div_navbar">
+      <ul class="nav nav-tabs nav-items">
+        <li class="nav-item">
+          <a class="nav-link active" href="#wrapper">D</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutME">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link5" href="./Assets/pdf/CV_Duy_FE_ReactJS.pdf">CV <i class="fa fa-download"></i></a>
+        </li>
+      </ul>
+
+
+    </div>
+
+  </header>
+  <section class="animationText">
+    <p>Welcome!</p>
+    <span class="animation__subject">I'm </span>
+    <span class="word"></span>
+    <button class="btn btn_mywork">
+      <a href="#aboutME">
+        View my work.
+        <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1">
+          <div class="scroll-prompt-arrow-container">
+            <div class="scroll-prompt-arrow">
+              <div></div>
+            </div>
+            <div class="scroll-prompt-arrow">
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </button>
+  </section>
+  <section id="aboutME" class="aboutME">
+    <div class="aboutMe__container">
+      <h1>ABOUT ME</h1>
+      <div class="aboutMe__containt row">
+        <div class="div_avt col-12 col-xl-3 text-center">
+          <div class="row">
+            <div class="col-5 col-sm-4 col-md-3  col-xl-12">
+              <img class="img-fluid mb-4" src="./Assets/img/CVAvt.png" />
+            </div>
+            <div class="col-7 col-sm-6 col-md-9  col-xl-12 mb-4">
+              <div class="information pt-3">
+                <span><b>Name: </b>Ngo Buu Anh Duy</span>
+                <span><b>Date of birth: </b>10 April 1993</span>
+                <span><b>Address: </b>Phong Phu, Binh Chanh, HCM</span>
+                <span><b>Email: </b>nbaduy104@gmail.com</span>
+                <span><b>Phone: </b>0969-652-651</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-12 col-xl-9">
+          <p>Hi. My name's Duy. I’m a front-end developer with 1 years of experience in building web application with
+            good knowledge of ReactJS.
+            I love learning new technologies and building valuable application that helps others with their work. I’m
+            considered a team-player because I like to help other and tend to work well within the group.
+          </p>
+          <h3 class="mt-4 mb-4">My Technical Skills</h3>
+          <div class="row">
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>Material UI</span>
+            </div>
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>Git</span>
+            </div>
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>CSS3</span>
+            </div>
+
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>ReactJS</span>
+            </div>
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>SASS/SCSS</span>
+            </div>
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>Bootstrap</span>
+            </div>
+            <div class="col-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>Redux</span>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <i class="fa fa-snowflake"></i>
+              <span>Styled-component</span>
+            </div>
+
+            <div class="col-6 col-lg-4">
+
+              <div>
+
+              </div>
+              <div>
+
+              </div>
+            </div>
+          </div>
+          <button id="neonShadow" class="btn btn_cv"><a href="./Assets/pdf/CV_Duy_FE_ReactJS.pdf">View My CV
+              <i class="fa fa-download"></i></a>
+          </button>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <h1 class="text-center">PORTFOLIO</h1>
+    <div class="portfolio__container">
+      <div class="row mb-5">
+        <div class="col-6 portfolio__containt">
+
+          <a target="_blank" class="overplay" href="https://movieproject-cv.netlify.app/">
+            <h4><b>Project: </b>Booking Movie</h4>
+            <p><b>Desription: </b>A online movie tickets booking website with functions:
+              Themes mode, booking tickets, show times, sign up, sign in, change
+              user information</p>
+            <p><b>Technologies Used: </b>ReactJS, Material-ui, Styled-component,
+              Bootstrap, HTML5, CSS3, SCSS</p>
+          </a>
+
+          <div class="overplayhidden"></div>
+
+          <iframe src="https://giphy.com/embed/0unL43GuEF9sYMAUok" frameBorder="0" class="giphy-embed"
+            allowFullScreen></iframe>
+
+
+        </div>
+
+        <div class="col-6 portfolio__containt">
+          <a target="_blank" class="overplay" href="https://todolist-cv.netlify.app/">
+            <h4><b>Project: </b>To Do List</h4>
+            <p><b>Desription: </b>A website allow users to manage their daily to-do tasks</p>
+            <p><b>Technologies Used: </b>HTML5, CSS3, SCSS, JS, Axios, Bootstrap</p>
+          </a>
+          <div class="overplayhidden"></div>
+          <iframe src="https://giphy.com/embed/06JVONk6wmwXIvzHSm" frameBorder="0" class="giphy-embed"
+            allowFullScreen></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 portfolio__containt">
+          <a target="_blank" class="overplay" href="https://udemy-cv.netlify.app/">
+            <h4><b>Project: </b>Udemy</h4>
+            <p><b>Desription: </b>A clone UI website of Udemy with full responsive</p>
+            <p><b>Technologies Used: </b>Bootstrap, HTML5, CSS3, SCSS</p>
+          </a>
+          <div class="overplayhidden"></div>
+          <iframe src="https://giphy.com/embed/vKBiIe0rMwVdNXZ0dV" frameBorder="0" class="giphy-embed"
+            allowFullScreen></iframe>
+        </div>
+        <div class="col-6 portfolio__containt">
+          <a target="_blank" class="overplay overplay4" href="https://github.com/nbduy104">
+            <h4>More Project ...</h4>
+          </a>
+          <div class="overplayhidden"></div>
+          <div class="div_seemore"><img src="./Assets/img/seemore.gif"></div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h1 class="text-center">CONTACT ME</h1>
+    <div class="contact__container">
+      <div class="row">
+        <div class="col-xl-6 ">
+          <div class="row contact__containt">
+            <div class="col-2 col-sm-1">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="col-10 col-sm-11">
+              <b>Address</b>
+              <p>Phong Phu, Binh Chanh, HCM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6  ">
+          <div class="row contact__containt">
+            <div class="col-2 col-sm-1">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="col-10 col-sm-11">
+              <b>Call me on</b>
+              <p>0969-652-651</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6  ">
+          <div class="row contact__containt">
+            <div class="col-2 col-sm-1">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="col-10 col-sm-11">
+              <b>Email me on</b>
+              <p>nbaduy104@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">© Copyright 2021 by Ngo Buu Anh Duy
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/mini-particle/index.js"></script>
+  <script src="./js/particle.js"></script>
+  <script src="./js/animationText.js"></script>
+
+  <!-- Scroll -->
+  <script>
+    $(document).scroll(function () {
+      if ($(window).scrollTop() > 50) {
+        $("#headerline").css("background-image", "radial-gradient(circle at top right, #f6e58d, #2f3542 40%)");
+        $("#headerline").css("box-shadow", "0 1px 20px 0 #1a1e23");
+      } else if ($(window).scrollTop() < 50) {
+        $("#headerline").css("background", "transparent");
+        $("#headerline").css("box-shadow", "none");
+      }
+
+    });
+  </script>
+
+  <script>
+    $('body').scrollspy({ target: '#headerline' })
+  </script>
+</body>
+
+</html>

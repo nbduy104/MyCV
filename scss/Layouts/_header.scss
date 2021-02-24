@@ -1,0 +1,65 @@
+.wrapper {
+  background-image: radial-gradient(circle at top right, #f6e58d, #2f3542 40%);
+  height: 100vh;
+  width: 100%;
+  font-size: 30px;
+}
+#headerline {
+  padding: 10px;
+  width: 100%;
+  z-index: 1000;
+}
+.div_navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  ul {
+    width: 60%;
+    border: none;
+    justify-content: center;
+
+    .nav-item {
+      a {
+        color: white;
+        font-size: 20px;
+        &:hover,
+        &:focus {
+          color: $color-red-0;
+          border: none;
+        }
+      }
+      .active {
+        color: $color-red-0;
+        background-color: transparent;
+        border: none;
+      }
+      .nav-link5 {
+        &:focus {
+          color: white;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  #headerline {
+    ul {
+      width: 80%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #headerline {
+    ul {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  #headerline {
+    a {
+      font-size: 18px;
+    }
+  }
+}

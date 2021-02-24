@@ -1,0 +1,11 @@
+{
+  "name": "portfoliofe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "mini-particle": "^1.0.3",
+    "popper.js": "^1.16.1"
+  }
+}
