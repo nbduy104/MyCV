@@ -10,6 +10,10 @@
   .aboutMe__container {
     width: 80%;
     margin: 0 auto;
+    h1 {
+      margin-bottom: 30px;
+
+    }
   }
 
   .information {
@@ -20,7 +24,7 @@
     }
   }
   .btn_cv {
-    margin-top: 80px;
+    margin-top: 20px;
     a {
       color: $color-red-0;
       text-decoration: none;
