@@ -534,8 +534,8 @@ h1 {
 }
 
 .work .work_container .work_item_right .card:before {
-  right: initial !important;
-  left: -6% !important;
+  right: initial;
+  left: -6%;
 }
 
 .work .work_container .card {
@@ -547,8 +547,8 @@ h1 {
 .work .work_container .card:before {
   content: "";
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 28px;
+  width: 28px;
   border-radius: 2px;
   background: inherit;
   position: absolute;
@@ -556,5 +556,57 @@ h1 {
   right: 0%;
   left: initial;
   transform: translateX(50%) rotate(45deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .work .work_container .work_list::before {
+    left: 0;
+  }
+  .work .work_container .work_item::before {
+    left: 0;
+  }
+  .work .work_container .card::before {
+    right: initial;
+    left: -4%;
+  }
+  .work .work_container .work_item {
+    display: flex;
+    justify-content: center;
+  }
+  .work .work_container .card {
+    width: 40rem !important;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .work .work_container .work_list::before {
+    left: 0;
+  }
+  .work .work_container .work_item::before {
+    left: 0;
+  }
+  .work .work_container .card::before {
+    right: initial;
+    left: -6%;
+  }
+  .work .work_container .work_item {
+    display: flex;
+    justify-content: center;
+  }
+  .work .work_container .card {
+    width: 30rem !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work .work_container .work_list::before {
+    display: none;
+  }
+  .work .work_container .work_item::before {
+    display: none;
+  }
+  .work .work_container .card::before {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
