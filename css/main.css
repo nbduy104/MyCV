@@ -471,4 +471,90 @@ h1 {
   color: white;
   padding-left: 20px;
 }
+
+.work {
+  padding: 90px 0 80px 0;
+}
+
+.work h1 {
+  padding-bottom: 40px;
+}
+
+.work .work_container {
+  position: relative;
+  width: 84%;
+  margin: 0 auto;
+}
+
+.work .work_container .work_list {
+  list-style-type: none;
+}
+
+.work .work_container .work_list:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 2px;
+  background: #ff9800;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.work .work_container .work_item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.work .work_container .work_item p {
+  margin-bottom: 0;
+}
+
+.work .work_container .work_item:before {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: #ff9800;
+  position: absolute;
+}
+
+.work .work_container .work_item .work_detail {
+  padding-left: 20px;
+}
+
+.work .work_container .work_item_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.work .work_container .work_item_right .card:before {
+  right: initial !important;
+  left: -6% !important;
+}
+
+.work .work_container .card {
+  border: none;
+  border-radius: 24px;
+  background-color: #f5f5f5;
+}
+
+.work .work_container .card:before {
+  content: "";
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 2px;
+  background: inherit;
+  position: absolute;
+  top: 20px;
+  right: 0%;
+  left: initial;
+  transform: translateX(50%) rotate(45deg);
+}
 /*# sourceMappingURL=main.css.map */
