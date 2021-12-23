@@ -1,4 +1,4 @@
-var words = [" Ngo Buu Anh Duy", " a Fullstack Developer"],
+var words = [" Ngo Buu Anh Duy", " a Front-end Developer"],
   part,
   i = 0,
   offset = 0,
